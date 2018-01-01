@@ -1,0 +1,14 @@
+---
+# change your user id here
+  ansible_user_id: vagrant
+  homebrew_installed_packages:
+    - ansible
+    - wget
+
+  homebrew_taps:
+    - caskroom/cask
+
+  homebrew_cask_appdir: /Applications
+  homebrew_cask_apps:
+    - vagrant-manager
+
