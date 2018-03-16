@@ -70,6 +70,8 @@
 
 - name: Force update brew after installation.
   command: "{{ homebrew_brew_bin_path }}/brew update --force"
+  become: no
+  update_homebrew: yes
   when: homebrew_binary.stat.exists == false
 
 # Tap.

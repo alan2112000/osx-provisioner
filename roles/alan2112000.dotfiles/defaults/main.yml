@@ -1,0 +1,3 @@
+---
+dotfiles_repo: 'https://github.com/alan2112000/dotfiles.git'
+dotfiles_repo_local_destination: "~/dotfiles"

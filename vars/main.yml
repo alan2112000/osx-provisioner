@@ -1,14 +1,43 @@
 ---
 # change your user id here
   ansible_user_id: vagrant
+  ansible_become_pass: ''
   homebrew_installed_packages:
     - ansible
     - wget
+    - grep 
+    - tmux 
+    - nvm 
+    - zsh 
+    - zsh-completions 
+    - git-flow
+    - nvm
+    - hub
+    - postgresql
+    - chromedriver
+    - sqlite
+    - cscope
+    - ctags
+    - mysql@5.6
+    - tmux
+    - yarn 
+    - openssl 
+    - openssl@1.1
+    - ack 
+    - selecta 
+    - imagemagick
+    - docker
+    - docker-compose
+    - git-lfs
+
 
   homebrew_taps:
     - caskroom/cask
 
   homebrew_cask_appdir: /Applications
   homebrew_cask_apps:
+    - vagrant
     - vagrant-manager
-
+    - gitbook 
+    - virtualbox
+    - docker

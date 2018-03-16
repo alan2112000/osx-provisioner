@@ -8,6 +8,8 @@ homebrew_brew_bin_path: /usr/local/bin
 homebrew_installed_packages:
   - ssh-copy-id
   - pv
+  - reattach-to-user-namespace
+  - tmux
 
 homebrew_uninstalled_packages: []
 

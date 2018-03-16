@@ -1,8 +1,9 @@
 --- 
-  hosts: all
-  vars_files: 
-    - vars/main.yml
-  roles: 
-    - alan2112000.homebrew
+  - hosts: all
+    vars_files: 
+      - vars/main.yml
+    roles: 
+      - alan2112000.homebrew
+      - alan2112000.dotfiles
 
 

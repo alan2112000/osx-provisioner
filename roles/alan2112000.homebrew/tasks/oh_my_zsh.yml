@@ -1,0 +1,20 @@
+---
+- name: check installation status 
+  stat: 
+    path: '~/.oh-my-zsh'
+  register: p
+
+- name: Get oh my zsh file
+  get_url: "url={{ oh_my_zsh_url }} dest=/tmp/{{ file_name }}"
+  when: p.stat.isdir is not defined 
+
+- name: Set file executable
+  file: 
+    path: "/tmp/{{ file_name }}"
+    mode: 0755
+  when: p.stat.isdir is not defined 
+
+- name: Install oh my zsh
+  shell: "/tmp/{{ file_name }}"
+  when: p.stat.isdir is not defined 
+  become: true
