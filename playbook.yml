@@ -5,5 +5,11 @@
     roles: 
       - alan2112000.homebrew
       - alan2112000.dotfiles
+      - resumegenius.yml
+      - role: rvm_io.ruby
+        tags: ruby
+        become: yes
+        rvm1_rubies: ['ruby-2.2.2', 'ruby-2.3.3']
+        rvm1_user:  vagrant # Need root account to access system location
 
 

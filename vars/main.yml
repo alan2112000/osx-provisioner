@@ -29,7 +29,12 @@
     - docker
     - docker-compose
     - git-lfs
-
+    - reattach-to-user-namespace
+    - gnupg
+    - gnupg2
+    - gpg2
+    - neovim
+    - the_silver_searcher
 
   homebrew_taps:
     - caskroom/cask
@@ -39,5 +44,12 @@
     - vagrant
     - vagrant-manager
     - gitbook 
-    - virtualbox
+    # - virtualbox
     - docker
+    - dash 
+    - bettertouchtool
+    - alfred
+
+  rvm1_gpg_keys: ''
+  root_group: admin
+  root_user: '{{ ansible_user_id }}'

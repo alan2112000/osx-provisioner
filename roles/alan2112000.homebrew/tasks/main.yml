@@ -71,7 +71,6 @@
 - name: Force update brew after installation.
   command: "{{ homebrew_brew_bin_path }}/brew update --force"
   become: no
-  update_homebrew: yes
   when: homebrew_binary.stat.exists == false
 
 # Tap.
@@ -114,3 +113,7 @@
 - name: Install from Brewfile.
   command: "brew bundle chdir={{ homebrew_brewfile_dir }}"
   when: homebrew_brewfile.stat.exists and homebrew_use_brewfile
+
+- include: oh_my_zsh.yml
+  name: inlcude oh my zsh
+
