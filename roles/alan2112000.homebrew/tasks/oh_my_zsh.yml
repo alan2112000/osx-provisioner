@@ -15,7 +15,8 @@
   become_user: '{{ ansible_user_id }}'
 
 - name: Swtich default shell 
-  command: 'chsh -s /usr/local/bin/zsh'
+  command: 'chsh -s /usr/local/bin/zsh {{ ansible_user_id }}'
+  become: yes
 
 - name: Check installation status for fzf
   stat: 
@@ -28,10 +29,10 @@
     repo: "https://github.com/junegunn/fzf.git"
     dest: "~/.fzf"
   become_user: '{{ ansible_user_id }}'
-  # when: fzf.stat.isdir is not defined
+  when: fzf.stat.isdir is not defined
 
 - name: Install fzf
   shell: "~/.fzf/install"
   become_user: "{{ ansible_user_id }}"
-  # when: fzf.stat.isdir is not defined
+  when: fzf.stat.isdir is not defined
   

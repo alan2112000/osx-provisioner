@@ -35,6 +35,7 @@
     - gpg2
     - neovim
     - the_silver_searcher
+    - python
 
   homebrew_taps:
     - caskroom/cask
