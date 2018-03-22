@@ -1,7 +1,7 @@
 ---
 # change your user id here
-  ansible_user_id: vagrant
-  ansible_become_pass: ''
+  ansible_user_id: ceshi
+  ansible_become_pass: 'asdfasdfasdf'
   homebrew_installed_packages:
     - ansible
     - wget
@@ -50,7 +50,6 @@
     - dash 
     - bettertouchtool
     - alfred
+    - iterm2
 
-  rvm1_gpg_keys: ''
-  root_group: admin
-  root_user: '{{ ansible_user_id }}'
+  rvm1_temp_download_path: '/Users/{ ansible_user_id }/.tmp'
