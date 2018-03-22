@@ -117,3 +117,9 @@
 - include: oh_my_zsh.yml
   name: inlcude oh my zsh
 
+- name: 'Test State'
+  stat:
+    path: '/Users/ceshi'
+  register: ceshi_state
+
+
