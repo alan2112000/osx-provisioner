@@ -1,0 +1,4 @@
+---
+dependencies: 
+  - rvm_io.ruby
+  - elliotweiser.osx-command-line-tools
