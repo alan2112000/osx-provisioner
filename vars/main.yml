@@ -50,7 +50,3 @@
     - dash 
     - bettertouchtool
     - alfred
-
-  rvm1_gpg_keys: ''
-  root_group: admin
-  root_user: '{{ ansible_user_id }}'

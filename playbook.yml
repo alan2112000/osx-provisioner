@@ -5,7 +5,6 @@
     roles: 
       - alan2112000.homebrew
       - alan2112000.dotfiles
-      - resumegenius.yml
       - role: rvm_io.ruby
         tags: ruby
         become: yes

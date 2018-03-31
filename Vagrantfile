@@ -96,5 +96,11 @@ Vagrant.configure("2") do |config|
     ansible.sudo = true
   end
 
+  config.vm.provision "shell", inline: "\ 
+    ruby -e '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)'
+    brew install git
+    brew install ansible
+  ",run: 'always'
+
   config.vm.provision 'file', source: '~/.ssh/id_rsa.pub', destination: '~/.ssh/authorized_keys'
 end
