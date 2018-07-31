@@ -1,4 +1,4 @@
 ---
 dependencies: 
-  - rvm_io.ruby
-  - elliotweiser.osx-command-line-tools
+  - { role: rvm_io.ruby }
+  - { role: elliotweiser.osx-command-line-tools}

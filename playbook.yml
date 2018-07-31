@@ -1,5 +1,6 @@
 --- 
-  - hosts: all
+  - hosts: 127.0.0.1
+    connection: local
     vars_files: 
       - vars/main.yml
     roles: 
@@ -9,6 +10,9 @@
         tags: ruby
         become: yes
         rvm1_rubies: ['ruby-2.2.2', 'ruby-2.3.3']
-        rvm1_user:  vagrant # Need root account to access system location
+        rvm1_user:  alan # Need root account to access system location
+        rvm1_gpg_keys: "409B6B1796C275462A1703113804BB82D39DC0E3"
+
+
 
 

@@ -74,10 +74,10 @@
   when: homebrew_binary.stat.exists == false
 
 # Tap.
-- name: Ensure configured taps are tapped.
-  homebrew_tap: "tap={{ item }} state=present"
-  with_items: "{{ homebrew_taps }}"
-  become_user: "{{ ansible_user_id }}"
+#- name: Ensure configured taps are tapped.
+#  homebrew_tap: "tap={{ item }} state=present"
+#  with_items: "{{ homebrew_taps }}"
+#  become_user: "{{ ansible_user_id }}"
 
 # Cask.
 - name: Install configured cask applications.

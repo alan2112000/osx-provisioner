@@ -1,6 +1,7 @@
 ---
 # change your user id here
-  ansible_user_id: vagrant
+  ansible_user_id: alan
+  ansible_sudo_pass: ''
   ansible_become_pass: ''
   homebrew_installed_packages:
     - ansible
@@ -14,12 +15,10 @@
     - nvm
     - hub
     - postgresql
-    - chromedriver
     - sqlite
     - cscope
     - ctags
     - mysql@5.6
-    - tmux
     - yarn 
     - openssl 
     - openssl@1.1
@@ -36,9 +35,8 @@
     - neovim
     - the_silver_searcher
     - python
-
-  homebrew_taps:
-    - caskroom/cask
+    - mysql-client
+    - fasd
 
   homebrew_cask_appdir: /Applications
   homebrew_cask_apps:
@@ -50,3 +48,14 @@
     - dash 
     - bettertouchtool
     - alfred
+    - 1password
+    - chrome
+    - slack
+    - redis 
+    - iTerm2
+    - dropbox
+    - line
+    - tableplus
+    - manico
+    - pritunl
+    - java
