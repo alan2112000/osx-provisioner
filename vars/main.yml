@@ -1,30 +1,26 @@
 ---
 # change your user id here
-  ansible_user_id: vagrant
-  ansible_become_pass: ''
+  ansible_user_id: alan
   homebrew_installed_packages:
     - ansible
     - wget
-    - grep 
-    - tmux 
-    - nvm 
-    - zsh 
-    - zsh-completions 
+    - grep
+    - tmux
+    - zsh
+    - zsh-completions
     - git-flow
-    - nvm
     - hub
     - postgresql
-    - chromedriver
     - sqlite
     - cscope
     - ctags
     - mysql@5.6
     - tmux
-    - yarn 
-    - openssl 
+    - yarn
+    - openssl
     - openssl@1.1
-    - ack 
-    - selecta 
+    - ack
+    - selecta
     - imagemagick
     - docker
     - docker-compose
@@ -36,17 +32,21 @@
     - neovim
     - the_silver_searcher
     - python
+    - fasd
 
   homebrew_taps:
-    - caskroom/cask
+    - homebrew/cask
 
   homebrew_cask_appdir: /Applications
   homebrew_cask_apps:
     - vagrant
     - vagrant-manager
-    - gitbook 
-    # - virtualbox
+    - gitbook
     - docker
-    - dash 
+    - dash
     - bettertouchtool
     - alfred
+    - chromedriver
+    - google-chrome
+    - iterm2
+    - polymail
