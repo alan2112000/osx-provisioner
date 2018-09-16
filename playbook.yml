@@ -11,4 +11,8 @@
         become: yes
         rvm1_rubies: ['ruby-2.2.2', 'ruby-2.3.3']
         rvm1_user: alan # Need root account to access system location
-
+    tasks:
+      - name: Download tmux plugin manager
+        git:
+          repo: 'https://github.com/tmux-plugins/tpm'
+          dest: "~/.tmux/plugins/tpm"
