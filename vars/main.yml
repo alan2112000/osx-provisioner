@@ -39,6 +39,14 @@
 
   homebrew_cask_appdir: /Applications
   homebrew_cask_apps:
+    - dropbox
+    - postman
+    - line
+    - sequel-pro
+    - skitch
+    - tableplus
+    - slack # messager
+    - google-drive-file-stream # google dirve file streawm
     - vagrant
     - vagrant-manager
     - gitbook
@@ -49,4 +57,8 @@
     - chromedriver
     - google-chrome
     - iterm2
-    - polymail
+    - polymail # email cliektn
+    - 1password # password management
+    - omnifocus # Task management
+    - spotify
+    - pritunl
