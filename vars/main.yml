@@ -15,6 +15,7 @@
     - cscope
     - ctags
     - mysql@5.6
+    - mysql
     - tmux
     - yarn
     - openssl
@@ -62,3 +63,5 @@
     - omnifocus # Task management
     - spotify
     - pritunl
+    - skype
+    - java
