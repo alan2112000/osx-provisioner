@@ -11,3 +11,4 @@
 - Recover the dash setting and licence from gmail and dropbox
 - Recover Alfred setting from dropbox, license from email
 - Recover VPN, from 1password credential and IT supports
+- Restore the zsh_history from the old mac, to make sure the fzf history still work
