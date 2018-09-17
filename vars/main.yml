@@ -34,6 +34,7 @@
     - the_silver_searcher
     - python
     - fasd
+    - v8-315 # homebrew v8
 
   homebrew_taps:
     - homebrew/cask

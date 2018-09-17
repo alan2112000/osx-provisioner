@@ -12,3 +12,4 @@
 - Recover Alfred setting from dropbox, license from email
 - Recover VPN, from 1password credential and IT supports
 - Restore the zsh_history from the old mac, to make sure the fzf history still work
+- Resotre the cdg_path from the old mac
