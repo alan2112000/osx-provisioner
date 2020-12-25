@@ -37,6 +37,18 @@ Change the value of `ansible_user_id` to your user name correspond to your usern
 
 ### Run the command
 
+Install the ansible through the ansible repo 
+
+```
+git clone https://github.com/ansible/ansible.git
+cd ansible
+virtualenv venv
+source venv/bin/activate
+
+```
+
+After above cmd you can have ansible environment to run below cmd
+
 ```
 ansible-playbook -K playbook.yml
 

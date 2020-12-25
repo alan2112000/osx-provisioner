@@ -1,2 +1,3 @@
 - src: rvm_io.ruby
-- src: elliotweiser.osx-command-line-tools 
+- src: elliotweiser.osx-command-line-tools
+- src: geerlingguy.homebrew
