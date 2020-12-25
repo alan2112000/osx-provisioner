@@ -4,12 +4,12 @@
     vars_files:
       - vars/main.yml
     roles:
-      - alan2112000.homebrew
+      - geerlingguy.homebrew
       - alan2112000.dotfiles
-      - role: rvm_io.ruby
+      - role: rvm.ruby
         tags: ruby
         become: yes
-        rvm1_rubies: ['ruby-2.2.2', 'ruby-2.3.3', 'ruby-1.9.3', 'ruby-2.4.4']
+        rvm1_rubies: ['ruby-2.4.4']
         rvm1_user: alan # Need root account to access system location
     tasks:
       - name: Download tmux plugin manager
