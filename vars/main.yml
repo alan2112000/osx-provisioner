@@ -2,7 +2,6 @@
 # change your user id here
   ansible_user_id: alan
   homebrew_installed_packages:
-    - ansible
     - wget
     - grep
     - tmux
@@ -32,10 +31,10 @@
     - gpg2
     - neovim
     - the_silver_searcher
-    - python
     - fasd
     - graphviz
     - v8-315 # homebrew v8
+    - kubectl
 
   homebrew_taps:
     - homebrew/cask
@@ -44,11 +43,9 @@
   homebrew_cask_apps:
     - dropbox
     - postman
-    - line
     - sequel-pro
     - skitch
     - tableplus
-    - slack # messager
     - google-drive-file-stream # google dirve file streawm
     - vagrant
     - vagrant-manager
@@ -61,9 +58,7 @@
     - google-chrome
     - iterm2
     - polymail # email cliektn
-    - 1password # password management
     - omnifocus # Task management
     - spotify
     - pritunl
     - skype
-    - java
