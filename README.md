@@ -54,3 +54,13 @@ ansible-playbook -K playbook.yml
 
 ```
 
+### Whole Restore Process
+
+0. Login into dropbox
+1. 1password first by cloud sync
+2. Recover manico 
+3. better touch tool (dropbox sync)
+4. manico 
+5. Vitamain R 
+6. Aflred 
+
