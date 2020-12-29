@@ -35,6 +35,12 @@
     - graphviz
     - v8-315 # homebrew v8
     - kubectl
+    - awscli
+    - terraform
+    - terragrunt
+    - pre-commit
+    - terraform-docs
+    - tflint
 
   homebrew_taps:
     - homebrew/cask
@@ -51,9 +57,9 @@
     - vagrant-manager
     - gitbook
     - docker
-    - dash
+    # - dash
     - bettertouchtool
-    - alfred
+    # - alfred
     - chromedriver
     - google-chrome
     - iterm2
@@ -62,3 +68,4 @@
     - spotify
     - pritunl
     - skype
+    - notion
