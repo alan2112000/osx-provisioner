@@ -36,11 +36,12 @@
     - v8-315 # homebrew v8
     - kubectl
     - awscli
-    - terraform
+    - terraform@0.13
     - terragrunt
     - pre-commit
     - terraform-docs
     - tflint
+    - helmfile
 
   homebrew_taps:
     - homebrew/cask
@@ -57,7 +58,7 @@
     - vagrant-manager
     - gitbook
     - docker
-    # - dash
+    - dash4
     - bettertouchtool
     # - alfred
     - chromedriver
