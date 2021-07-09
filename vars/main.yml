@@ -42,31 +42,32 @@
     - terraform-docs
     - tflint
     - helmfile
+    - zplug
 
   homebrew_taps:
     - homebrew/cask
 
   homebrew_cask_appdir: /Applications
-  homebrew_cask_apps:
-    - dropbox
-    - postman
-    - sequel-pro
-    - skitch
-    - tableplus
-    - google-drive-file-stream # google dirve file streawm
-    - vagrant
-    - vagrant-manager
-    - gitbook
-    - docker
-    - dash4
-    - bettertouchtool
-    # - alfred
-    - chromedriver
-    - google-chrome
-    - iterm2
-    - polymail # email cliektn
-    - omnifocus # Task management
-    - spotify
-    - pritunl
-    - skype
-    - notion
+  homebrew_cask_apps: []
+    # - dropbox
+    # - postman
+    # - sequel-pro
+    # - skitch
+    # - tableplus
+    # - google-drive-file-stream # google dirve file streawm
+    # - vagrant
+    # - vagrant-manager
+    # - gitbook
+    # - docker
+    # - dash4
+    # - bettertouchtool
+    # # - alfred
+    # - chromedriver
+    # - google-chrome
+    # - iterm2
+    # - polymail # email cliektn
+    # - omnifocus # Task management
+    # - spotify
+    # - pritunl
+    # - skype
+    # - notion
