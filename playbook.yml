@@ -6,11 +6,6 @@
     roles:
       - geerlingguy.homebrew
       - alan2112000.dotfiles
-      - role: rvm.ruby
-        tags: ruby
-        become: yes
-        rvm1_rubies: ['ruby-2.4.4']
-        rvm1_user: alan # Need root account to access system location
     tasks:
       - name: Download tmux plugin manager
         git:

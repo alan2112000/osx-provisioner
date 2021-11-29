@@ -24,7 +24,7 @@ It will install below package
 enter into the repository and execute
 
 ```
-ansible-galaxy -r requirements
+ansible-galaxy install -r requirements
 ```
 
 It should install the dependencies first
@@ -56,11 +56,10 @@ ansible-playbook -K playbook.yml
 
 ### Whole Restore Process
 
-0. Login into dropbox
-1. 1password first by cloud sync
-2. Recover manico 
+1. 1password first by icloud sync 
+
+2. Download manico from app store
 3. better touch tool (dropbox sync)
-4. manico 
 5. Vitamain R 
 6. Aflred 
 
