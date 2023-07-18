@@ -9,12 +9,9 @@
     - fzf
     - zsh-completions
     - git-flow
-    - hub
-    - sqlite
     - cscope
     - ctags
     - yarn
-    - openssl
     - openssl@1.1
     - ack
     - selecta
@@ -43,6 +40,8 @@
     - asdf
     - gpg # asdf dependencies
     - awk # adsf dependencies
+    - diff-so-fancy # fshow_preview command dependency
+    - tgenv
 
   homebrew_taps:
     - homebrew/cask
@@ -51,8 +50,6 @@
   homebrew_cask_apps:
     - dropbox
     - vagrant
-    - vagrant-manager
     - alfred
     - iterm2
     - pritunl
-    - skype
