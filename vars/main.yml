@@ -3,7 +3,6 @@
   ansible_user_id: alan
   homebrew_installed_packages:
     - wget
-    - grep
     - tmux
     - zsh
     - fzf
