@@ -1,13 +1,14 @@
----
-  - hosts: 127.0.0.1
-    connection: local
-    vars_files:
-      - vars/main.yml
-    roles:
-      - geerlingguy.homebrew
-      - alan2112000.dotfiles
-    tasks:
-      - name: Download tmux plugin manager
-        git:
-          repo: 'https://github.com/tmux-plugins/tpm'
-          dest: "~/.tmux/plugins/tpm"
+- hosts: localhost
+  connection: local
+  gather_facts: true
+  vars_files:
+    - vars/main.yml
+  roles:
+    - geerlingguy.mac.homebrew
+    - geerlingguy.mac.mas
+    - alan2112000.dotfiles
+  tasks:
+    - name: Download tmux plugin manager
+      git:
+        repo: 'https://github.com/tmux-plugins/tpm'
+        dest: "~/.tmux/plugins/tpm"

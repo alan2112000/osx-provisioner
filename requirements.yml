@@ -1,3 +1,6 @@
-- src: rvm.ruby
-- src: elliotweiser.osx-command-line-tools
-- src: geerlingguy.homebrew
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+
+collections:
+  - name: geerlingguy.mac

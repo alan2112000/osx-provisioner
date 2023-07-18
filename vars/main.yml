@@ -1,51 +1,48 @@
 ---
+  mas_installed_app_ids:
+    - 724472954 # manico
+    - 490179405 #OKTA verify
+    - 539883307 #Line
 # change your user id here
-  ansible_user_id: alan
   homebrew_installed_packages:
     - wget
     - tmux
     - zsh
     - fzf
     - zsh-completions
-    - git-flow
-    - cscope
-    - ctags
+    - cscope # ctags dependencies
+    - ctags # ctags dependencies
     - yarn
     - openssl@1.1
-    - ack
+    - ack # better than grep
     - selecta
     - imagemagick
     - docker
     - docker-compose
-    - git-lfs
-    - reattach-to-user-namespace
-    - gnupg
-    - gnupg2
+    - git-lfs # git large file storage
+    - reattach-to-user-namespace # tmux copy/paste
+    - gnupg # gpg2 dependencies
+    - gnupg2 # gpg2 dependencies
     - gpg2
     - neovim
     - the_silver_searcher
-    - fasd
     - graphviz
-    - v8-315 # homebrew v8
     - kubectl
     - awscli
     - terragrunt
     - pre-commit
     - terraform-docs
-    - tflint
-    - zplug
-    - k9s
-    - stern
+    - tflint # terraform linter
+    - zplug # zsh plugin manager
+    - k9s # kubernetes cli
+    - stern # kubernetes log viewer
     - asdf
     - gpg # asdf dependencies
     - awk # adsf dependencies
     - diff-so-fancy # fshow_preview command dependency
-    - tgenv
+    - tfenv # terraform version manager
+    - mas # mac app store cli
 
-  homebrew_taps:
-    - homebrew/cask
-
-  homebrew_cask_appdir: /Applications
   homebrew_cask_apps:
     - dropbox
     - vagrant
